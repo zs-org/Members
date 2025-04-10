@@ -15,7 +15,17 @@ First, make sure to follow our organization here: [**ZS Org**](https://github.co
 ### 2️⃣ Fork This Repository
 Click the **Fork** button at the top right to create your copy of this repo.
 
-### 3️ Create a Pull Request
+### 3️⃣ Create a Pull Request
+To make a valid pull request, you must make a small change. Here's what to do:
+
+- Edit a file named `join.md` in your fork.
+- Add your GitHub username and a short message like this:
+
+\`\`\`markdown
+## your-username
+Hi, I'm [Your Name], and I'd love to join ZS Org!
+\`\`\`
+
 Submit a pull request titled **"Request to Join ZS Org - [Your Name]"** with the following in the body:
 
 ---
