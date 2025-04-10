@@ -53,6 +53,10 @@ Welcome to our awesome members! 🚀
 
 | Avatar | Name | Bio |
 |--------|------|-----|
+| ![](https://avatars.githubusercontent.com/u/175098101?v=4&s=40) | [zs-3](https://github.com/zs-3) | A Programmer From Earth.
+
+Member of @zs-org  |
+--------|------|-----|
 | ![](https://avatars.githubusercontent.com/u/123674670?s=40) | [ZS](https://github.com/zs-3) | Founder of ZS Org |
 | ![](https://avatars.githubusercontent.com/u/136754768?s=40) | [Litdev](https://github.com/litdev1) | Core Contributor |
 
