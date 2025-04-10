@@ -5,4 +5,4 @@ Add your name here like this:
 ```
 
 ----------------Members------------------------
-@your-username — Hi, I'm Your Name, and I'd love to join ZS Org!
+/n@your-username — Hi, I'm Your Name, and I'd love to join ZS Org!
