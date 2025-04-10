@@ -15,14 +15,7 @@ First, make sure to follow our organization here: [**ZS Org**](https://github.co
 ### 2️⃣ Fork This Repository
 Click the **Fork** button at the top right to create your copy of this repo.
 
-### 3️⃣ Add Yourself to the Members List
-Edit the `README.md` in your fork and add your GitHub profile link to the **Members** section below using this format:
-
-```markdown
-- [Your Name](https://github.com/your-username) - Short bio or area of interest
-```
-
-### 4️⃣ Create a Pull Request
+### 3️ Create a Pull Request
 Submit a pull request titled **"Request to Join ZS Org - [Your Name]"** with the following in the body:
 
 ---
@@ -44,6 +37,8 @@ Hi, I'm [Your Name], and I love [brief description of interests or skills].
 
 ### ✅ Once Approved
 A core team member will review your request. Once approved, you’ll be officially added as a member of the organization! 🎉
+📝 Important: To be visible in the members table below, go to https://github.com/orgs/zs-org/people, find your name, click the settings ⚙️ next to it, and select "Public" under "Organization Visibility".
+
 
 ---
 
