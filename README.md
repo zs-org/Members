@@ -37,7 +37,7 @@ Hi, I'm [Your Name], and I love [brief description of interests or skills].
 
 ### ✅ Once Approved
 A core team member will review your request. Once approved, you’ll be officially added as a member of the organization! 🎉
-📝 Important: To be visible in the members table below, go to https://github.com/orgs/zs-org/people, find your name, click the settings ⚙️ next to it, and select "Public" under "Organization Visibility".
+### 📝 Important: To be visible in the members table below, go to https://github.com/orgs/zs-org/people, find your name, click the settings ⚙️ next to it, and select "Public" under "Organization Visibility".
 
 
 ---
