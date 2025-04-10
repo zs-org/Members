@@ -51,7 +51,7 @@ Welcome to our awesome members! 🚀
 | ![](https://avatars.githubusercontent.com/u/175098101?v=4&s=40) | [zs-3](https://github.com/zs-3) | A Programmer From Earth.
 
 
-> 🧩 New members should add themselves to this table in their pull request!
+> 🧩 New members would be automatically added after one day in this table.
 
 ---
 
