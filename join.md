@@ -6,5 +6,5 @@ Hi, I'm [Your Name], and I'd love to join ZS Org!
 ```
 
 ----------------Members------------------------
-## Sample
+### Sample
 Hi, I'm Sample, and I'd love to join ZS Org!
