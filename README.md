@@ -191,6 +191,10 @@ Member of @zs-org  |
 --------|------|-----|
 | ![](https://avatars.githubusercontent.com/u/175098101?v=4&s=40) | [zs-3](https://github.com/zs-3) | A Programmer From Earth.
 
+Member of @zs-org  |
+--------|------|-----|
+| ![](https://avatars.githubusercontent.com/u/175098101?v=4&s=40) | [zs-3](https://github.com/zs-3) | A Programmer From Earth.
+
 
 > 🧩 New members would be automatically added after one day in this table.
 
