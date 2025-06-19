@@ -1,7 +1,7 @@
 import requests
 
 ORG = "zs-org"
-README_PATH = "README.md"
+MEMBERS_MD = "members.md"
 
 def get_members():
     url = f"https://api.github.com/orgs/{ORG}/members"
@@ -25,21 +25,17 @@ def generate_table(members):
         table += f"| {avatar} | {name} | {bio} |\n"
     return table
 
-def update_readme(table):
-    with open(README_PATH, "r", encoding="utf-8") as f:
-        content = f.read()
+def write_members_md(table):
+    content = f"""## 👥 Members
 
-    start = content.find("## 👥 Members")
-    end = content.find("---", start)
-    before = content[:start]
-    after = content[end:]
-    new_section = f"## 👥 Members\n\nWelcome to our awesome members! 🚀\n\n{table}"
-    new_content = before + new_section + after
+Welcome to our awesome members! 🚀
 
-    with open(README_PATH, "w", encoding="utf-8") as f:
-        f.write(new_content)
+{table}
+"""
+    with open(MEMBERS_MD, "w", encoding="utf-8") as f:
+        f.write(content)
 
 if __name__ == "__main__":
     members = get_members()
     table = generate_table(members)
-    update_readme(table)
+    write_members_md(table)
