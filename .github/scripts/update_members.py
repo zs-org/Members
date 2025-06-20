@@ -7,12 +7,14 @@ def get_members():
     url = f"https://api.github.com/orgs/{ORG}/members"
     headers = {"Accept": "application/vnd.github.v3+json"}
     response = requests.get(url, headers=headers)
+    response.raise_for_status()
     return response.json()
 
 def get_user_details(username):
     url = f"https://api.github.com/users/{username}"
     headers = {"Accept": "application/vnd.github.v3+json"}
     response = requests.get(url, headers=headers)
+    response.raise_for_status()
     return response.json()
 
 def generate_table(members):
@@ -23,7 +25,7 @@ def generate_table(members):
         name = f"[{user['login']}]({user['html_url']})"
         bio = user['bio'] if user['bio'] else ""
         table += f"| {avatar} | {name} | {bio} |\n"
-    return table
+    return table.strip()
 
 def write_members_md(table):
     content = f"""## 👥 Members
@@ -33,7 +35,7 @@ Welcome to our awesome members! 🚀
 {table}
 """
     with open(MEMBERS_MD, "w", encoding="utf-8") as f:
-        f.write(content)
+        f.write(content.strip() + "\n")
 
 if __name__ == "__main__":
     members = get_members()
