@@ -23,7 +23,9 @@ def generate_table(members):
         user = get_user_details(member['login'])
         avatar = f"![]({user['avatar_url']}&s=40)"
         name = f"[{user['login']}]({user['html_url']})"
-        bio = user['bio'] if user['bio'] else ""
+        # 🧼 Clean the bio: remove newlines and extra spacing
+        raw_bio = user['bio'] or ""
+        bio = ' '.join(raw_bio.strip().splitlines()).strip()
         table += f"| {avatar} | {name} | {bio} |\n"
     return table.strip()
 
